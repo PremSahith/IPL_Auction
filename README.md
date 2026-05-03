@@ -48,10 +48,27 @@ Now that your squad is finalized, it's time to build your best team.
 Are you a developer looking to run this locally or contribute? Here is a quick overview of what powers the platform under the hood.
 
 ### Tech Stack
-- **Frontend:** Next.js 16, React 19, Tailwind CSS v4, Framer Motion, Lucide React
-- **Backend:** Custom Node.js server wrapping Next.js, Socket.IO
-- **Database:** PostgreSQL via Prisma ORM 6
-- **Architecture Highlights:** Debounced database syncing for high-frequency bidding, optimistic UI updates, and a custom seeded PRNG for room-specific player shuffling.
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?logo=framer&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide%20React-F56565?logo=lucide&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white)
+
+**Database & ORM**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)
+
+**Architecture Highlights:** Debounced database syncing for high-frequency bidding, optimistic UI updates, and a custom seeded PRNG for room-specific player shuffling.
 
 ### Local Setup
 ```bash
