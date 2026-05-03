@@ -70,20 +70,7 @@ Are you a developer looking to run this locally or contribute? Here is a quick o
 
 **Architecture Highlights:** Debounced database syncing for high-frequency bidding, optimistic UI updates, and a custom seeded PRNG for room-specific player shuffling.
 
-### Local Setup
-```bash
-# Clone the repo & install dependencies
-git clone https://github.com/PremSahith/IA.git
-cd IA
-npm install
 
-# Setup your environment variables (.env)
-# DATABASE_URL=postgresql://user:password@host:5432/ipl_auction
-
-# Run migrations & start the server
-npx prisma migrate deploy
-npm run dev
-```
 
 ---
 *Private project — all rights reserved.*
