@@ -1,76 +1,96 @@
-# 🏏 IPL Auction Simulator: The Ultimate Franchise Experience
+<div align="center">
 
-Welcome to the **IPL Auction Simulator** — a premium, real-time multiplayer platform designed to replicate the high-stakes thrill of a real Indian Premier League player auction. 
+<br/>
 
-Whether you are hosting a watch party, competing with friends, or just testing your squad-building skills, this platform offers a complete, end-to-end franchise management experience. From the suspense of the waiting room to the final gavel drop, every detail is engineered for maximum excitement.
+<img src="https://img.shields.io/badge/🏏-IPL%20AUCTION%20SIMULATOR-gold?style=for-the-badge&labelColor=1a1a2e&color=c8a951" alt="IPL Auction Simulator"/>
 
----
+<br/><br/>
 
-## 🌟 The Journey: How It Works
+**A premium, real-time multiplayer platform for high-stakes franchise auctions.**
 
-### 1. The Waiting Room (The Pre-Auction Hype)
-Your journey begins in the **Waiting Room**. 
-- **Franchise Selection:** Connect using a unique room code and select your favorite franchise. Duplicate selections are blocked, ensuring every team is unique.
-- **Immersive Theming:** The moment you pick your team, your UI dynamically adapts. The lobby glows with your franchise's colors, setting the tone for the battles to come.
-- **Ignition:** Once all owners are ready, the Host clicks the **"Ignite Auction"** button. Everyone is synchronously transported from the lobby straight into the live bidding dashboard.
+*The waiting room. The countdown. The final gavel. All of it.*
 
-### 2. The Live Bidding Dashboard (The Main Event)
-This is where fortunes are made and lost. The dashboard features a **futuristic, holographic design** with glowing gold accents.
-- **Authentic Player Sets:** Players are presented one by one, moving through structured sets (Marquee, Batsmen, Spinners, etc.) just like the real broadcast. While the sets are structured, the order of players *within* each set is uniquely randomized for every room to keep you guessing.
-- **Real-Time Combat:** When a player appears, the countdown timer begins. Click **Bid** to raise your paddle. The system handles the math, automatically calculating the next legal increment (₹5L, ₹10L, ₹20L, or ₹25L depending on the current price).
-- **Feel the Pressure:** If the timer hits zero, the player is sold to the highest bidder. Miss out? They're gone. Every bid triggers snappy animations, and winning a player triggers a celebration effect.
-- **Purse Management:** Keep an eye on your budget! You start with ₹120 Crore. The system actively tracks your remaining purse, your maximum possible bid, and your overseas player limits.
+<br/>
 
-### 3. The Trade Desk (Post-Auction Negotiations)
-The auction might be over, but the strategy isn't. 
-- Head to the **Trade** page to propose player-for-player swaps with rival franchises.
-- See a high-fidelity visual representation of the trade. The receiving team can accept or reject your offer in real-time.
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)](https://socket.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://postgresql.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)](https://prisma.io/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-### 4. Playing XI & Final Standings
-Now that your squad is finalized, it's time to build your best team.
-- **Submit Your XI:** Pick your best 11 players from your squad.
-- **Team Ratings:** The system calculates a total team rating based on your selections (using our comprehensive `espnlist.json` dataset). The Host controls whether player Overall (OVR) ratings are visible during the auction, but the final results reveal all!
-- **The Results:** View the final leaderboard. See every team's complete squad, how much they spent, and how their final Playing XI stacks up against the competition.
+</div>
 
 ---
 
-## ✨ Platform Highlights
+## The Experience
 
-* 🎨 **Premium Visuals:** Glassmorphism cards, Framer Motion animations, and deep franchise-color integration make the platform look and feel like a high-end esports broadcast.
-* ⚡ **Zero Latency:** Powered by Socket.IO WebSockets, every bid, timer tick, and trade offer is synchronized across all players' screens in milliseconds.
-* 📱 **Fully Responsive:** Whether you are bidding furiously on a desktop monitor or trading players from your mobile phone, the interface is optimized for every screen size.
-* 🏏 **Rich Player Data:** Featuring a massive database of international and domestic talent, complete with base prices, roles, and historical stats.
+### 1 · Waiting Room
+Join via a unique room code and claim your franchise. Duplicate picks are blocked — every team belongs to exactly one owner. The moment you choose, your entire UI adapts to your franchise's colors. When everyone is ready, the Host hits **Ignite Auction** and all clients transition to the live dashboard simultaneously.
+
+### 2 · Live Bidding Dashboard
+Players appear one by one in structured sets — Marquee, Batsmen, Spinners, and more — mirroring the real broadcast format. The order within each set is uniquely seeded per room so no two auctions play out the same.
+
+Hit **Bid** before the countdown hits zero. The system auto-calculates the next legal increment (₹5L / ₹10L / ₹20L / ₹25L based on current price). Every bid triggers snappy animations; winning a player triggers a full celebration effect. Miss the timer and they're gone.
+
+Your **₹120 Crore purse**, maximum possible bid, and overseas slot count are tracked live.
+
+### 3 · Trade Desk
+Once the gavel drops, head to the Trade page to negotiate player-for-player swaps with rival franchises. Proposals render as a high-fidelity visual comparison; the receiving team accepts or rejects in real-time.
+
+### 4 · Playing XI & Final Standings
+Pick your best 11 from your squad. The system scores each team against the full `espnlist.json` dataset (OVR ratings optionally hidden during the auction, revealed at the end). The final leaderboard shows every franchise's complete squad, spend, and XI rating side by side.
 
 ---
 
-## 🛠️ For Developers
+## Highlights
 
-Are you a developer looking to run this locally or contribute? Here is a quick overview of what powers the platform under the hood.
+| | |
+|---|---|
+| ⚡ **Zero latency** | Socket.IO WebSockets sync every bid, timer tick, and trade offer in milliseconds |
+| 🎨 **Premium visuals** | Glassmorphism cards, Framer Motion animations, deep franchise-color integration |
+| 📱 **Fully responsive** | Optimized from a desktop auction setup down to mobile trading |
+| 🏏 **Rich player data** | Full international and domestic database with base prices, roles, and historical stats |
+| 🔀 **Seeded randomness** | Custom PRNG ensures room-specific player ordering — reproducible but unique |
+| 🛡️ **Resilient writes** | Debounced DB syncing handles high-frequency bidding without hammering Postgres |
 
-### Tech Stack
+---
+
+## Tech Stack
 
 **Frontend**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?logo=framer&logoColor=white)
-![Lucide](https://img.shields.io/badge/Lucide%20React-F56565?logo=lucide&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide%20React-F56565?style=flat-square)
 
 **Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
 
-**Database & ORM**
+**Data**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)
-
-**Architecture Highlights:** Debounced database syncing for high-frequency bidding, optimistic UI updates, and a custom seeded PRNG for room-specific player shuffling.
-
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
 ---
-*Private project — all rights reserved.*
+
+## Architecture Notes
+
+**Debounced DB syncing** — bid events fire at high frequency during contested auctions; writes are debounced to prevent Postgres contention while keeping in-memory state authoritative.
+
+**Optimistic UI** — bid confirmations render client-side immediately, reconciled against server state on the next socket event for a snappy, lag-free feel.
+
+**Seeded PRNG** — each room gets a deterministic shuffle of players within sets, derived from the room code. Reproducible for debugging; unique per game.
+
+**Franchise theming** — color tokens are injected at the session level via CSS variables, scoping the entire UI to the selected franchise without re-renders.
+
+---
+
+<div align="center">
+<sub>Private project — all rights reserved.</sub>
+</div>
