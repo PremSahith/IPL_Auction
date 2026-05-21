@@ -19,6 +19,10 @@
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)](https://prisma.io/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
+<br/>
+
+[![View Demo](https://img.shields.io/badge/View%20Demo-%E2%86%92-c8a951?style=for-the-badge&labelColor=1a1a2e)](https://ipl-auction-lw63.onrender.com/)
+
 </div>
 
 ---
